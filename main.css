@@ -1,0 +1,116 @@
+/*
+
+// TODO: Move to SCSS w/ Jekyll ...
+
+// Colors:
+
+2d3142
+bfc0c0
+ffffff
+75DDDD
+4f5d75
+
+*/
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+NAVIGATION
+*/
+
+.nav {
+  width:100%;
+  height: 80px;
+  position: fixed;
+  display: flex;
+  padding: 0 10px;
+  top: 0; right: 0; bottom: auto; left: 0;
+
+  justify-content: space-between;
+  align-items: center;
+
+  background: #fff;
+  color: #4f5d75;
+  transition: .2s;
+
+  overflow: hidden;
+}
+.nav.nav-transparent {
+  background: none;
+  color: #fff;
+}
+.nav .logo {
+  height: 60px;
+  width: auto;
+  display: block;
+
+  /* for word-only logo */
+  font-size: 25px;
+  line-height: 60px;
+  color: #75DDDD;
+
+  transition: inherit;
+}
+.nav.nav-transparent .logo {
+  opacity: 0;
+}
+.nav .nav-group {
+  width: auto;
+  height: 100%;
+}
+.nav .nav-group .nav-item {
+  width: auto;
+  height: 80px;
+  padding: 0 25px;
+  display: inline-block;
+
+  font-size: 20px;
+  line-height: 80px;
+  text-decoration: none;
+
+  color: inherit;
+  transition: opacity .2s;
+}
+.nav .nav-group:hover .nav-item {
+  opacity: .5;
+}
+.nav .nav-group .nav-item:hover {
+  opacity: 1;
+}
+
+@media(max-width: 700px) {
+  .nav .nav-group.optional {
+    display: none;
+  }
+}
+
+.hero {
+  display: block;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 200px;
+
+  color: #fff;
+
+  /* Fix this to be downloaded ... */
+  background-position: top center;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3152&q=80);
+}
+
+.hero__logo {
+  display: block;
+  height: 200px;
+  width: auto;
+  margin: 0 auto;
+}
