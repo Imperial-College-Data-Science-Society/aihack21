@@ -21,6 +21,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: #2D3142;
 }
 
 /*
@@ -40,8 +41,9 @@ NAVIGATION
 
   background: #fff;
   color: #4f5d75;
-  transition: .2s;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
 
+  transition: .2s;
   overflow: hidden;
   z-index: 10;
 }
@@ -49,6 +51,7 @@ NAVIGATION
   background: none;
   color: #fff;
   text-shadow: 0 0 3px rgba(0,0,0,0.5);
+  box-shadow: none;
 }
 .nav .logo {
   height: 60px;
@@ -199,11 +202,12 @@ SECTION
   height: auto;
   display: block;
   margin: 0 auto;
+  padding: 100px 0 0 0;
 }
 .section h1 {
   font-size: 50px;
   font-weight: 800;
-  display: inline-block;
+  display: inline;
 
   color: #2D3142;
 
@@ -216,6 +220,102 @@ SECTION
 .section h1.underlined {
   background-size: 100% 30px;
 }
+
+/*
+SCHEDULE
+*/
+
+.schedule {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.schedule .day {
+  width: 300px;
+  max-width: 100%;
+  flex-grow: 1;
+  padding: 20px 0 0 100px;
+  position: relative;
+  list-style: none;
+}
+.schedule .day:before {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 0; left: 0;
+
+  font-size: 40px;
+  font-weight: 900;
+
+  color: #4F5D75;
+
+  content: attr(data-day);
+}
+.schedule .day:after {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 50px; left: 0;
+
+  font-size: 20px;
+  font-weight: 500;
+
+  color: #BFC0C0;
+
+  content: attr(data-date);
+}
+.schedule li {
+  width: 100%;
+  display: block;
+  margin: 0 0 20px 0;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+.schedule li:after {
+  width: 100%;
+  display: block;
+  margin: 10px 0 0 0;
+  
+  color: #BFC0C0;
+  font-style: italic;
+
+  content: attr(data-time);
+}
+
+/*
+SPONSORS
+*/
+
+.logo-list {
+  width: 100%;
+  display: block;
+}
+.logo-list img {
+  max-width: 100%;
+  max-height: 50px;
+  margin: 25px 25px 0 0;
+}
+
+/*
+FOOTER
+*/
+
+.footer {
+  width: 100%;
+  padding: 150px 0 50px 0;
+
+  font-size: 15px;
+  text-align: center;
+}
+
+/*
+PHONES
+*/
 
 @media(max-width: 600px) {
   .nav .optional {
@@ -239,4 +339,4 @@ SECTION
   }
 }
 
-
+/* I'm sorry ... */
