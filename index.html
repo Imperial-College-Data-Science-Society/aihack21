@@ -14,16 +14,15 @@
   <body>
 
     <nav id="nav-header" class="nav nav-transparent">
-      <h1 class="logo">AI Hack 2020</h1>
-      <!-- <img class="logo" src="http://aihack.org/wp-content/uploads/2018/09/aihac-logo-line-text.png"> -->
-      <!-- idea is to have a one-page landing thing, so these jump down on the page and are hidden on mobile -->
-      <!-- might want to re-evaluate this ... -->
-      <span class="nav-group optional">
-        <a class="nav-item" href="#sec-schedule">Schedule</a>
-        <a class="nav-item" href="#sec-toothbrush">Toothbrush</a>
-        <a class="nav-item" href="#">Team</a>
-        <a class="nav-item" href="#sec-sponsors">Sponsors</a>
-      </span>
+      <div class="nav-content">
+        <h1 class="logo">AI Hack 2020</h1>
+        <span class="nav-group optional">
+          <a class="nav-item" href="#sec-schedule">Schedule</a>
+          <a class="nav-item" href="#sec-toothbrush">Toothbrush</a>
+          <a class="nav-item" href="#sec-team">Team</a>
+          <a class="nav-item" href="#sec-sponsors">Sponsors</a>
+        </span>
+      </div>
     </nav>
 
     <div class="hero">
@@ -59,14 +58,36 @@
       </div>
     </div>
 
-    <div id="sec-toothbrush" class="section">
+    <div id="sec-toothbrush" class="section" style="text-align: center">
       <h1>Free Toothbrush with every Ticket (seriously)</h1>
-      <p>Free TOOTHBRUSHES! With EVERY ticket!!!</p>
+    </div>
+
+    <div id="sec-team" class="section">
+      <h1>Team</h1>
+      <div class="profiles">
+        <div class="card">
+          <img src="http://aihack.org/wp-content/uploads/2018/10/william.jpeg">
+          <span class="name">William Lee</span>
+          <span class="degree">ICDSS President (PhD Materials)</span>
+        </div>
+      </div>
     </div>
 
     <div id="sec-sponsors" class="section">
       <h1>Sponsors (sadly not our real sponsors)</h1>
-      <div class="logo-list">
+      <div class="logo-list" data-tier="Petabyte">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/500px-Facebook_Logo_%282019%29.svg.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/500px-Google_2015_logo.svg.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/350px-Amazon_logo.svg.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/160px-Apple_logo_black.svg.png">
+      </div>
+      <div class="logo-list gray" data-tier="Gigabyte">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/500px-Facebook_Logo_%282019%29.svg.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/500px-Google_2015_logo.svg.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/350px-Amazon_logo.svg.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/160px-Apple_logo_black.svg.png">
+      </div>
+      <div class="logo-list gray" data-tier="Megabyte">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/500px-Facebook_Logo_%282019%29.svg.png">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/500px-Google_2015_logo.svg.png">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/350px-Amazon_logo.svg.png">

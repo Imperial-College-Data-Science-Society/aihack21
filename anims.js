@@ -6,7 +6,7 @@
 // for now this should be fine.
 
 const nav = document.getElementById("nav-header");
-const eventDate = new Date("Sat Feb 29 2020 12:00:00 GMT+0000 (GMT)"); // FIXME
+const eventDate = new Date("Sat Feb 29 2020 9:00:00 GMT+0000 (GMT)"); // FIXME
 const underlineTitles = [...document.querySelectorAll(".section h1")]
 
 const state = {
