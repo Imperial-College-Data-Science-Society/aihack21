@@ -28,8 +28,6 @@ function scrollEvent() {
 
   // Underline titles
   underlineTitles.forEach(hdr => {
-    console.log(hdr.offsetTop, scroll);
-    console.log(hdr.offsetTop - scroll);
     if (hdr.offsetTop - scroll < window.innerHeight * 0.5) {
       hdr.classList.add("underlined");
     } else {
