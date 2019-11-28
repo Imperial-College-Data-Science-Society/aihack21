@@ -7,7 +7,7 @@
 2d3142
 bfc0c0
 ffffff
-75DDDD
+75DDDD -> 0083FF
 4f5d75
 
 */
@@ -70,7 +70,7 @@ NAVIGATION
   font-size: 25px;
   font-weight: 800;
   line-height: 60px;
-  color: #75DDDD;
+  color: #0083FF;
 
   transition: inherit;
 }
@@ -154,13 +154,13 @@ HERO
   line-height: 60px;
 
   background: #fff;
-  color: #75DDDD;
+  color: #0083FF;
 
   box-shadow: 0 10px 25px 15px rgba(0,0,0,0.2);
   transition: .2s;
 }
 .call-to-action .button:hover {
-  background: #75DDDD;
+  background: #0083FF;
   color: #fff;
   box-shadow: 0 2px 15px 5px rgba(0,0,0,0.2);
 }
@@ -222,7 +222,7 @@ SECTION
 
   color: #2D3142;
 
-  background-image: linear-gradient(#75DDDD, #75DDDD);
+  background-image: linear-gradient(#0083FF, #0083FF);
   background-repeat: no-repeat;
   background-size: 0% 30px;
   background-position: bottom left;
@@ -341,7 +341,7 @@ TEAM (a mess right now...)
   font-weight: 900;
   line-height: 50px;
 
-  color: #75DDDD;
+  color: #0083FF;
 
   z-index: 2;
 }
@@ -360,7 +360,7 @@ TEAM (a mess right now...)
 }
 .profiles .card .info a {
   text-decoration: underline;
-  color: #75DDDD;
+  color: #0083FF;
 }
 
 /*
