@@ -52,3 +52,8 @@ scrollEvent();
   };
   update();
 });
+
+// Randomize order of profiles
+const people = document.querySelector("#rand-order");
+for (var i = people.children.length; i >= 0; i --)
+  people.appendChild(people.children[Math.random() * i | 0]);
