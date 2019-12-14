@@ -7,8 +7,8 @@
 2d3142
 bfc0c0
 ffffff
-75DDDD -> 0083FF
-4f5d75
+75 DD DD -> 00 83 FF -> ED6A5A
+4f5-d75 -> ffb2a9
 
 */
 
@@ -39,7 +39,7 @@ NAVIGATION
   top: 0; right: 0; bottom: auto; left: 0;
 
   background: #fff;
-  color: #4f5d75;
+  color: #2d3142;
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
 
   transition: .2s;
@@ -70,7 +70,7 @@ NAVIGATION
   font-size: 25px;
   font-weight: 800;
   line-height: 60px;
-  color: #0083FF;
+  color: #ED6A5A;
 
   transition: inherit;
 }
@@ -117,7 +117,7 @@ HERO
   /* Fix this ... */
   background-position: top center;
   background-size: cover;
-  background-color: #4F5D75;
+  background-color: #934a41;
   background-blend-mode: multiply;
   background-image: url(./img/hero.jpg);
 }
@@ -154,13 +154,13 @@ HERO
   line-height: 60px;
 
   background: #fff;
-  color: #0083FF;
+  color: #ED6A5A;
 
   box-shadow: 0 10px 25px 15px rgba(0,0,0,0.2);
   transition: .2s;
 }
 .call-to-action .button:hover {
-  background: #0083FF;
+  background: #ED6A5A;
   color: #fff;
   box-shadow: 0 2px 15px 5px rgba(0,0,0,0.2);
 }
@@ -222,14 +222,14 @@ SECTION
 
   color: #2D3142;
 
-  background-image: linear-gradient(#0083FF, #0083FF);
+  background-image: linear-gradient(#ED6A5A, #ED6A5A);
   background-repeat: no-repeat;
-  background-size: 0% 30px;
+  background-size: 0% 10px;
   background-position: bottom left;
   transition: background .3s ease-in-out;
 }
 .section h1.underlined {
-  background-size: 100% 30px;
+  background-size: 100% 10px;
 }
 
 /*
@@ -262,7 +262,7 @@ SCHEDULE
   font-size: 40px;
   font-weight: 900;
 
-  color: #4F5D75;
+  color: #ffb2a9;
 
   content: attr(data-day);
 }
@@ -341,7 +341,7 @@ TEAM (a mess right now...)
   font-weight: 900;
   line-height: 50px;
 
-  color: #0083FF;
+  color: #ED6A5A;
 
   z-index: 2;
 }
@@ -356,11 +356,11 @@ TEAM (a mess right now...)
   font-weight: 500;
   line-height: 20px;
 
-  color: #4F5D75;
+  color: #2d3142;
 }
 .profiles .card .info a {
   text-decoration: underline;
-  color: #0083FF;
+  color: #ED6A5A;
 }
 
 /*
