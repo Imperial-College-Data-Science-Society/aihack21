@@ -299,6 +299,57 @@ SCHEDULE
 }
 
 /*
+CHALLENGES
+*/
+.challenges {
+  width: 100%;
+  margin: 25px 0 0 0;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.challenges .card {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 50px 0;
+  position: relative;
+}
+
+.challenges .card .topic {
+  height: 50%;
+  display: block;
+  position: absolute;
+  top: -20px; left: 50% - 20px;
+
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 50px;
+
+  color: #ED6A5A;
+
+  z-index: 2;
+}
+
+.challenges .card .info {
+  width: 45%;
+  display: block;
+  position: absolute;
+  top: 0; left: 90%;
+
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 20px;
+
+  color: #2d3142;
+}
+
+/*
 TEAM (a mess right now...)
 */
 
@@ -364,6 +415,71 @@ TEAM (a mess right now...)
 }
 
 /*
+JUDGES (probs will be a bigger mess bc I am the one writing it)
+*/
+.judges {
+  width: 100%;
+  margin: 25px 0 0 0;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.judges .card {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 40px 0;
+  position: relative;
+}
+.judges .card img {
+  width: 200px;
+  height: auto;
+  display: block;
+  position: relative;
+
+  filter: grayscale(.9);
+  transition: .2s;
+  z-index: 1;
+}
+.judges .card:hover img {
+  filter: grayscale(0);
+}
+.judges .card .name {
+  width: 20%;
+  display: block;
+  position: absolute;
+  top: 100px; left: calc(20% - 20px);
+
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 50px;
+
+  color: #ED6A5A;
+
+  z-index: 2;
+}
+.judges .card .info {
+  width: 50%;
+  display: block;
+  position: absolute;
+  bottom: 0; right: 0;
+  /* text-align: right; */
+
+  font-size: 16px;
+  /* font-style: italic; */
+  font-weight: 500;
+  line-height: 20px;
+
+  color: #2d3142;
+}
+.judges .card .info a {
+  color: #ED6A5A;
+}
+
+
+/*
 SPONSORS
 */
 
@@ -375,6 +491,7 @@ SPONSORS
 
   justify-content: space-between;
   align-items: center;
+  justify-content:center;
   flex-wrap: wrap;
 
   background: #eee;
@@ -438,4 +555,41 @@ PHONES
   }
 }
 
-/* I'm sorry ... */
+/* FAQ */
+.collapsible {
+  background-color: rgb(255, 255, 255);
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  color: #ED6A5A;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collap-content {
+  padding: 0 50px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  color: white;
+  float: left;
+  margin-left: 10px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
