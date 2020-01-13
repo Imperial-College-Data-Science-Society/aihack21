@@ -49,7 +49,7 @@ NAVIGATION
 .nav.nav-transparent {
   background: none;
   color: #fff;
-  text-shadow: 0 0 3px rgba(0,0,0,0.5);
+  /*text-shadow: 0 0 3px rgba(0,0,0,0.5);*/
   box-shadow: none;
 }
 .nav .nav-content {
@@ -106,37 +106,39 @@ HERO
 */
 
 .hero {
-  display: block;
+  display: flex;
   width: 100vw;
   height: auto;
   min-height: 80vh;
-  padding: 150px 0 50px 0;
+  padding: 80px 0 50px 0;
+  justify-content: center;
+  align-items: flex-end;
 
   color: #fff;
 
   /* Fix this ... */
   background-position: top center;
   background-size: cover;
-  background-color: #934a41;
-  background-blend-mode: multiply;
-  background-image: url(./img/hero.jpg);
+  background-color: #ED6A5A;
+  background-blend-mode: luminosity;
+  /*background-image: url(./img/hero.jpg);*/
 }
 .hero .logo {
   display: block;
-  height: 200px;
+  height: 60vh;
   width: auto;
-  margin: 0 auto 100px auto; /* fix me */
+  margin: 50px;
 }
 
 .call-to-action {
-  width: 900px;
+  width: 400px;
   max-width: 90%;
   height: auto;
-  display: flex;
-  margin: 0 auto;
+  display: block;
+  margin: 50px;
 
   justify-content: space-between;
-  flex-direction: row-reverse;
+  flex-direction: column;
   align-items: center;
 
   color: inherit;
@@ -146,6 +148,7 @@ HERO
   height: 60px;
   padding: 0 25px;
   display: block;
+  margin: 25px 0 0 0;
 
   font-size: 20px;
   font-weight: 800;
@@ -156,20 +159,20 @@ HERO
   background: #fff;
   color: #ED6A5A;
 
-  box-shadow: 0 10px 25px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 25px 15px rgba(0,0,0,0.1);
   transition: .2s;
 }
 .call-to-action .button:hover {
-  background: #ED6A5A;
-  color: #fff;
-  box-shadow: 0 2px 15px 5px rgba(0,0,0,0.2);
+  /*background: #ED6A5A;*/
+  /*color: #fff;*/
+  box-shadow: 0 2px 15px 5px rgba(0,0,0,0.1);
 }
 .call-to-action .countdown {
   width: auto;
   height: auto;
   display: block;
 
-  text-shadow: 0 0 5px rgba(0,0,0,0.2);
+  /*text-shadow: 0 0 5px rgba(0,0,0,0.2);*/
 }
 .call-to-action .countdown .digit {
   width: 100px;
@@ -533,9 +536,21 @@ FOOTER
 PHONES
 */
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
   .nav .optional {
     display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero .logo {
+    height: 400px;
+    margin: 15px 0 0 0;
+  }
+  .hero .call-to-action {
+    margin: 0;
   }
 
   .call-to-action {
