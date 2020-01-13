@@ -39,7 +39,7 @@ window.addEventListener("scroll", scrollEvent);
 scrollEvent();
 
 // Countdowns
-[...document.getElementsByClassName("countdown")].forEach((elem) => {
+[...document.getElementsByClassName("countdown")].forEach(elem => {
   const days = elem.children[0];
   const hours = elem.children[1];
   const minutes = elem.children[2];
@@ -54,23 +54,20 @@ scrollEvent();
 });
 
 // Randomize order of profiles
-const people = document.querySelector("#rand-order");
-for (var i = people.children.length; i >= 0; i --)
-  people.appendChild(people.children[Math.random() * i | 0]);
-
+[...document.querySelectorAll("#rand-order")].forEach(elems => {
+  for (let i = elems.children.length; i >= 0; i --)
+    elems.appendChild(elems.children[Math.random() * i | 0]);
+});
 
 // Collapsible
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+[...document.querySelectorAll(".collapsible")].forEach(elem => {
+  elem.addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
+    const content = this.nextElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
     }
   });
-}
+});
