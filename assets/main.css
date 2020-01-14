@@ -540,6 +540,9 @@ PHONES
   .nav .optional {
     display: none;
   }
+  .nav .nav-content {
+    justify-content: center;
+  }
 
   .hero {
     flex-direction: column;
