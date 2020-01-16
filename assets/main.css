@@ -571,6 +571,13 @@ PHONES
   .call-to-action .countdown .digit {
     text-align: left;
   }
+
+  .profiles .card .name {
+    top: -20px; left: 50%; left: calc(50% - 150px);
+  }
+  .profiles .card img {
+    margin-top: 50px;
+  }
 }
 
 /* FAQ */
