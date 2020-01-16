@@ -1,0 +1,25 @@
+- question: "How much machine learning should I know?"
+  answer: "To be able to produce a good submission, we would recommend some
+familiarity with some of the following things:
+
+- Data and software engineering: pandas, dplyr, ggplot, matplotlib, seaborn,
+PyTorch, TensorFlow, Tableau, parallelisation, docker, GCP or AWS, ipython...
+
+- Machine learning: Nonparametric smoothing, random forests, finite and infinite
+mixture models, XGboost, kernel methods, Gaussian processes, neural networks, autoencoders...
+
+- Statistical modelling: frequentist and Bayesian linear models, frequentist and
+Bayesian hypothesis testing, Monte Carlo methods, bootstrap simulations, PCA..."
+
+- question: "What language should I use?"
+  answer: "We recommend Python, but you could also use R, Julia or any language that can be used for scientific computing."
+
+- question: "What will you provide on the day?"
+  answer: "We will provide:
+
+- Board extensions
+
+- Mentors from industry and our advisory team"
+
+- question: "Can I still sign up, even if I missed the deadline?"
+  answer: "Sadly we won't be able to accommodate people who miss the sign-up date."

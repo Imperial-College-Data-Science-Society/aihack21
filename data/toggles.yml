@@ -1,0 +1,6 @@
+# Use these to toggle sections
+faq: false
+sponsors: false
+# Note: These have no data - enable with care
+challenges: false
+judges: false

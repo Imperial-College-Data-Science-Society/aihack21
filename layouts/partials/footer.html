@@ -1,0 +1,5 @@
+<footer class="footer">&copy; ICDSS {{ now.Year }}</footer>
+
+<!-- Scripts -->
+{{ $js := resources.Get "main.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
