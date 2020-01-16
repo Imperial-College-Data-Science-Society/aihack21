@@ -6,7 +6,7 @@
 // for now this should be fine.
 
 const nav = document.getElementById("nav-header");
-const eventDate = new Date("Sat Feb 29 2020 9:00:00 GMT+0000 (GMT)"); // FIXME
+const eventDate = new Date("Sat Feb 29 2020 9:30:00 GMT+0000 (GMT)"); // FIXME
 const underlineTitles = [...document.querySelectorAll(".section h1")]
 
 const state = {
@@ -44,7 +44,7 @@ scrollEvent();
   const hours = elem.children[1];
   const minutes = elem.children[2];
   const update = () => {
-    const diff = eventDate.valueOf() - Date.now(); // ms
+    const diff = Math.max(0, eventDate.valueOf() - Date.now()); // ms
     days.innerHTML = `${Math.floor(diff / 1000 / 60 / 60 / 24)}`;
     hours.innerHTML = `${Math.floor(diff / 1000 / 60 / 60) % 24}`;
     minutes.innerHTML = `${Math.floor(diff / 1000 / 60) % 60}`;
