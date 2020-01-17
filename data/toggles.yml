@@ -1,5 +1,5 @@
 # Use these to toggle sections
-faq: false
+faq: true
 sponsors: false
 # Note: These have no data - enable with care
 challenges: false
