@@ -9,8 +9,8 @@
         {{ if .Site.Data.toggles.challenges }}<a class="nav-item" href="#sec-challenges">Challenges</a>{{ end }}
         {{ if .Site.Data.toggles.judges }}<a class="nav-item" href="#sec-judges">Judges</a>{{ end }}
         {{ if .Site.Data.toggles.sponsors }}<a class="nav-item" href="#sec-sponsors">Sponsors</a>{{ end }}
-        <a class="nav-item" href="#sec-team">Team</a>
         {{ if .Site.Data.toggles.faq }}<a class="nav-item" href="#sec-faq">FAQ</a>{{ end }}
+        <a class="nav-item" href="#sec-team">Team</a>
       </span>
     </div>
   </nav>
@@ -86,12 +86,6 @@
       </div>
   {{ end }}
 
-  <!-- Team -->
-  <div id="sec-team" class="section">
-    <h1>Team</h1>
-    {{ partial "people.html" .Site.Data.team }}
-  </div>
-
   <!-- FAQ -->
   {{ if .Site.Data.toggles.faq }}
     <div id="sec-faq" class="section">
@@ -102,5 +96,11 @@
       {{ end }}
     </div>
   {{ end }}
+
+  <!-- Team -->
+  <div id="sec-team" class="section">
+    <h1>Team</h1>
+    {{ partial "people.html" .Site.Data.team }}
+  </div>
 
 {{ end }}
