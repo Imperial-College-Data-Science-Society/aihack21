@@ -5,6 +5,7 @@
     <div class="nav-content">
       <img class="logo" src="img/logo.svg">
       <span class="nav-group optional">
+        <a class="nav-item" href="#sec-key-dates">Key Dates</a>
         <a class="nav-item" href="#sec-schedule">Schedule</a>
         {{ if .Site.Data.toggles.challenges }}<a class="nav-item" href="#sec-challenges">Challenges</a>{{ end }}
         {{ if .Site.Data.toggles.judges }}<a class="nav-item" href="#sec-judges">Judges</a>{{ end }}
@@ -24,11 +25,25 @@
         <span class="digit" data-label="hours"></span>
         <span class="digit" data-label="minutes"></span>
         <span class="date">29. Feb. 2020</span>
-        <a href="#" class="button">Sign up opening soon</a>
+        <a href="https://form.jotform.com/200204484537349" class="button">Apply for AI Hack</a>
         <a href="https://www.facebook.com/events/s/ai-hack-2020/755111851650782/" class="button subtle">
           Get Updates on Facebook
         </a>
       </div>
+    </div>
+  </div>
+
+  <!-- Key Dates -->
+  <div id="sec-key-dates" class="section">
+    <h1>Key Dates</h1>
+    <div class="schedule">
+      {{ range .Site.Data.keydates }}
+        <ul class="day" data-day="{{ .title }}" data-date="{{ .sub }}">
+          {{ range .items }}
+            <li data-time="{{ .date }}">{{ .title }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
     </div>
   </div>
 
