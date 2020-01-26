@@ -1,7 +1,11 @@
 title: shell
 # Add new sponsors here (and add their logo as SVG in static/img/sponsors)
-general:
-  - nhs
-cloud:
-  - gcp
-  - azure
+# general:
+#   - nhs
+#   - jane_street
+# general_png:
+#   - tableau
+#   - dataiku
+# cloud:
+#   - gcp
+#   - azure

@@ -71,18 +71,25 @@
     <div id="sec-sponsors" class="section">
       <h1>Sponsors</h1>
         <div class="logo-list" data-tier="Title Sponsor">
-          <img src="img/sponsors/{{ .Site.Data.sponsors.title }}.svg">
+          <img style="max-height:100px" src="img/sponsors/{{ .Site.Data.sponsors.title }}.svg">
         </div>
+        {{ if or .Site.Data.sponsors.general .Site.Data.sponsors.general_png }}
         <div class="logo-list" data-tier="Sponsor">
           {{ range .Site.Data.sponsors.general }}
             <img src="img/sponsors/{{ . }}.svg">
           {{ end }}
+          {{ range .Site.Data.sponsors.general_png }}
+            <img src="img/sponsors/{{ . }}.png">
+          {{ end }}
         </div>
+        {{ end }}
+        {{ if .Site.Data.sponsors.cloud }}
         <div class="logo-list" data-tier="Cloud Provider">
           {{ range .Site.Data.sponsors.cloud }}
             <img src="img/sponsors/{{ . }}.svg">
           {{ end }}
         </div>
+        {{ end }}
       </div>
   {{ end }}
 
