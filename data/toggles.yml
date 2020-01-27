@@ -1,6 +1,6 @@
 # Use these to toggle sections
 faq: true
-sponsors: false
+sponsors: true
 # Note: These have no data - enable with care
 challenges: false
 judges: false
