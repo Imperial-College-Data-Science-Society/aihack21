@@ -6,6 +6,6 @@ general:
 # general_png:
 #   - tableau
 #   - dataiku
-# cloud:
-#   - gcp
+cloud:
+  - gcp
 #   - azure
