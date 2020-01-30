@@ -4,3 +4,6 @@ sponsors: true
 # Note: These have no data - enable with care
 challenges: false
 judges: false
+applications:
+  open: true
+  url: "https://form.jotform.com/200204484537349"
