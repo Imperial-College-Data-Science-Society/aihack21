@@ -8,4 +8,4 @@ general:
 #   - dataiku
 cloud:
   - gcp
-#   - azure
+#   - microsoft
