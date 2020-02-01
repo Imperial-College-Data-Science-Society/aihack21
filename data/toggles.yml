@@ -5,5 +5,5 @@ sponsors: true
 challenges: false
 judges: false
 applications:
-  open: true
+  open: false
   url: "https://form.jotform.com/200204484537349"
