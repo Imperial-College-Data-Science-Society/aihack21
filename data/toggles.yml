@@ -7,3 +7,4 @@ judges: false
 applications:
   open: false
   url: "https://form.jotform.com/200204484537349"
+  close_msg: "Second Batch Opens Soon"
