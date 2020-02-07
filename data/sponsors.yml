@@ -3,9 +3,9 @@ title: shell
 general:
   - nhs
   - jane_street
-# general_png:
+general_png:
 #   - tableau
-#   - dataiku
+  - dataiku
 cloud:
   - gcp
   - microsoft
