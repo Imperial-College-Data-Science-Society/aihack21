@@ -3,6 +3,7 @@ title: shell
 general:
   - nhs
   - jane_street
+  - c1
 general_png:
 #   - tableau
   - dataiku
