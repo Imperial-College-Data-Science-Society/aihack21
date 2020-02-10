@@ -379,6 +379,15 @@ TEAM (a mess right now...)
   height: auto;
   margin: 25px 0;
   position: relative;
+
+  &.big-info {
+    .info {
+      position: relative;
+      width: 100%;
+      left: 0;
+      margin: 15px 0 0 0;
+    }
+  }
 }
 .profiles .card img {
   width: 50%;
