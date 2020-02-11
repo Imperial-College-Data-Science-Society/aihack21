@@ -10,3 +10,10 @@ general_png:
 cloud:
   - gcp
   - microsoft
+society:
+  - ucldss
+  - camdss
+  - kcldss
+  - lsesu
+  - she++
+  - oxfest

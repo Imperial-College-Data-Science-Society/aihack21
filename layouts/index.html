@@ -109,6 +109,13 @@
           {{ end }}
         </div>
         {{ end }}
+        {{ if .Site.Data.sponsors.society }}
+        <div class="logo-list" data-tier="Society Partner">
+          {{ range .Site.Data.sponsors.society }}
+            <img src="img/sponsors/{{ . }}.png">
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
   {{ end }}
 
