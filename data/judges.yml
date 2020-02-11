@@ -1,8 +1,8 @@
-- name: "First Last"
+- name: "Gilad Tsur"
   info: "Gilad graduated from Tel-Aviv university with a PhD in theoretical computer science, working on randomised algorithms. 
 He worked on theoretical computer science and computer vision at the Weizmann Institute of Science and at Tel-Aviv 
 university, before joining Yahoo Labs and working on NLP and information retrieval problems. After working for Yahoo Labs 
 for three years Gilad spent two years working for Deliveroo, and now works for Quantcast on machine learning and NLP for 
 internet advertising."
   # place SQUARE image in /static/img/people
-  # pic: "pic-without-jpeg"
+  pic: "gilad"
