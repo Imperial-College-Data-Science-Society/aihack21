@@ -6,3 +6,6 @@ for three years Gilad spent two years working for Deliveroo, and now works for Q
 internet advertising."
   # place SQUARE image in /static/img/people
   pic: "gilad"
+
+# delete / comment when all announced pls
+- name: "More To Be Revealed"
