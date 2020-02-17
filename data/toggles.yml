@@ -5,6 +5,6 @@ sponsors: true
 challenges: false
 judges: true
 applications:
-  open: true
+  open: false
   url: "https://form.jotform.com/200375359344355"
-  close_msg: "Second Batch Opens Now!"
+  close_msg: "Applications Closed"
