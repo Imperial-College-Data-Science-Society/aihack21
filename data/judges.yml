@@ -7,5 +7,25 @@ internet advertising."
   # place SQUARE image in /static/img/people
   pic: "gilad"
 
+- name: "Alan Mosca"
+  info: "Alan Mosca is the CTO and Co-Founder of nPlan, the company 
+        revolutionising construction project management. While creating 
+        nPlan he has completed a part-time PhD at Birkbeck, University 
+        of London, where his research focused on ensemble methods and 
+        improvements to optimization algorithms in deep learning. 
+        Previously Alan worked at Wallaroo Labs, Wadhwani Asset 
+        Management, Jane Street Capital, and several software companies 
+        as well as on consulting projects in machine learning and deep 
+        learning."
+  pic: "alan"
+
+- name: "Mikkel Dengsoe"
+  info: "Mikkel Dengsøe is a Data Science Team Manager at Monzo, the UK based neobank. Before joining Monzo he co-founded 
+  and became CEO of Data Hygge, a platform making it easier for product managers and designers to measure and improve the 
+  user experience by combining qualitative and quantitative insight. He previously led data science at Google for the Global 
+  Publishing Team and has more than 8 years of experience building analytics products and teams."
+  pic: "mikkel"
+
+
 # delete / comment when all announced pls
 - name: "More To Be Revealed"
