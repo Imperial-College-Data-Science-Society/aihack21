@@ -7,6 +7,10 @@ internet advertising."
   # place SQUARE image in /static/img/people
   pic: "gilad"
 
+- name: "Marc Cohen"
+  info: "I build tools, demos, codelabs, and other things to make the Google Cloud Platform easier and more fun to use. Originally from New Jersey, then Seattle, and now live and work in London. I co-authored a book about Google Compute Engine and wrote the product announcement demo. In a previous life, I developed communication systems at Bell Labs and Lucent Technologies. Outside of work, I enjoy indie music, quirky films (especially documentaries), books, puzzles, and chess. I'm also very interested in education, teaching, and applying technology (like spaced repetition  and Google Codelabs) to enhance the learning experience."
+  pic: "cohen"
+
 - name: "Alan Mosca"
   info: "Alan Mosca is the CTO and Co-Founder of nPlan, the company 
         revolutionising construction project management. While creating 
@@ -26,6 +30,5 @@ internet advertising."
   Publishing Team and has more than 8 years of experience building analytics products and teams."
   pic: "mikkel"
 
-
 # delete / comment when all announced pls
-- name: "More To Be Revealed"
+# - name: "More To Be Revealed"

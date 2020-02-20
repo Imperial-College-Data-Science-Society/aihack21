@@ -508,6 +508,7 @@ SPONSORS
   display: flex;
 
   margin-top: 25px;
+  box-sizing: border-box;
 
   justify-content: space-between;
   align-items: center;
@@ -532,7 +533,8 @@ SPONSORS
   content: attr(data-tier);
 }
 .logo-list img {
-  max-width: 100%;
+  max-width: 90%;
+  max-width: calc(min(90%, 300px));
   max-height: 50px;
   margin: 25px;
 }
