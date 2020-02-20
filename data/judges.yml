@@ -30,5 +30,9 @@ internet advertising."
   Publishing Team and has more than 8 years of experience building analytics products and teams."
   pic: "mikkel"
 
+- name: "Rupert Chaplin"
+  info: "Rupert is Head of Data Science at NHS Digital. He leads a team of data scientists drawing on the rich data resources held by NHS Digital to deliver a range of innovative data analytics projects including predictive models, text classifiers, data discovery tools, interactive tools to understand demand on the Health Service and generation of synthetic health data.  Previously he was Head of Data Science at the Home Office for 15 years delivering transformative data science projects across the domains of Immigration, Crime, Terrorism and Citizenship.  He is passionate about developing analytically robust tools that can be scaled to have a direct impact in large operational areas of the public sector, exploiting the tools and techniques brought by this new era of Machine Learning and Data Science."
+  pic: "rupert"
+
 # delete / comment when all announced pls
 - name: "More To Be Revealed"
