@@ -244,6 +244,69 @@ SECTION
 }
 
 /*
+EVENTS
+*/
+
+.events {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #2d3142;
+
+  .event {
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 25px;
+
+    h2 {
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 40px;
+      margin: 0;
+      color: #ffb2a9;
+    }
+
+    h3 {
+      font-size: 30px;
+      line-height: 30px;
+      color: #bfc0c0;
+      margin: 0 0 15px 0;
+      font-weight: 900;
+      content: attr(data-date);
+    }
+
+    .button {
+      width: auto;
+      height: 40px;
+      padding: 0 15px;
+      display: inline-block;
+      margin: 5px 0 35px 0;
+
+      font-size: 18px;
+      font-weight: 800;
+      text-decoration: none;
+      text-align: center;
+      line-height: 40px;
+
+      color: #fff;
+      background: #ED6A5A;
+
+      box-shadow: 0 3px 15px 5px rgba(0,0,0,0);
+      transition: .2s;
+
+      &:hover {
+        box-shadow: 0 3px 15px 5px rgba(0,0,0,0.1);
+      }
+    }
+  }
+}
+
+/*
 SCHEDULE
 */
 

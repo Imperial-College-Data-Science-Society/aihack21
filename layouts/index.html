@@ -6,6 +6,7 @@
       <img class="logo" src="img/logo.svg">
       <span class="nav-group optional">
         <a class="nav-item" href="#sec-key-dates">Key Dates</a>
+        {{ if .Site.Data.toggles.events }}<a class="nav-item" href="#sec-events">Events</a>{{ end }}
         <a class="nav-item" href="#sec-schedule">Schedule</a>
         {{ if .Site.Data.toggles.challenges }}<a class="nav-item" href="#sec-challenges">Challenges</a>{{ end }}
         {{ if .Site.Data.toggles.judges }}<a class="nav-item" href="#sec-judges">Judges</a>{{ end }}
@@ -50,6 +51,22 @@
       {{ end }}
     </div>
   </div>
+
+  <!-- Events -->
+  {{ if .Site.Data.toggles.events }}
+    <div id="sec-events" class="section">
+      <h1>Events</h1>
+      <ul class="events">
+        {{ range .Site.Data.events }}
+          <li class="event">
+            <h2>{{ .title }}</h2>
+            <h3>{{ .date }}</h3>
+            <a class="button" href="{{ .url }}">More Info</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
 
   <!-- Schedule -->
   <div id="sec-schedule" class="section">

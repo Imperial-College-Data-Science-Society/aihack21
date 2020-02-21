@@ -1,10 +1,10 @@
 # Use these to toggle sections
 faq: true
 sponsors: true
-# Note: These have no data - enable with care
 challenges: false
 judges: true
 applications:
   open: false
   url: "https://form.jotform.com/200375359344355"
   close_msg: "Applications Closed"
+events: true
