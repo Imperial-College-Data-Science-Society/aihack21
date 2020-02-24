@@ -33,7 +33,7 @@ NAVIGATION
 
 .nav {
   width:100%;
-  height: 80px;
+  height: auto;
   position: fixed;
   display: block;
   top: 0; right: 0; bottom: auto; left: 0;
@@ -620,10 +620,27 @@ PHONES
 
 @media(max-width: 800px) {
   .nav .optional {
-    display: none;
+    display: block;
+    height: 40px;
+    height: 40px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    width: 100%;
+    .nav-item {
+      height: 40px;
+      margin: 0;
+      line-height: 40px;
+      padding: 0 15px;
+    }
+  }
+  .nav .logo {
+    height: 50px;
   }
   .nav .nav-content {
     justify-content: center;
+    height: 100px;
+    width: 100%;
+    flex-direction: column;
   }
 
   .hero {
