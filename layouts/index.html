@@ -86,11 +86,15 @@
   {{ if .Site.Data.toggles.challenges }}
     <div id="sec-challenges" class="section">
       <h1>Challenges</h1>
-      {{ range .Site.Data.challenges }}
-        <h2>{{ .title }}</h2>
-        {{ .body | markdownify }}
-        <hr>
-      {{ end }}
+      <ul class="events">
+        {{ range .Site.Data.challenges }}
+          <li class="event">
+            <h2>{{ .title }}</h2>
+            <h3>{{ .subtitle }}</h3>
+            <a class="button" href="{{ .url }}">Start Challenge</a>
+          </li>
+        {{ end }}
+      </ul>
     </div>
   {{ end }}
 

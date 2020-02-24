@@ -1,9 +1,3 @@
-- title: "This is the challenge title"
-  body: "You can put markdown here:
-
-### Some heading here
-
-1. Some
-
-2. List
-"
+- title: "AirBnB Challenge"
+  subtitle: "Decipher the Housing Market"
+  url: "https://github.com/aihack20/airbnb_challenge"
