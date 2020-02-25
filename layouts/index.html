@@ -90,7 +90,7 @@
         {{ range .Site.Data.challenges }}
           <li class="event">
             <h2>{{ .title }}</h2>
-            <h3>{{ .subtitle }}</h3>
+            <h3>From {{ .company }}</h3>
             <a class="button" href="{{ .url }}">Start Challenge</a>
           </li>
         {{ end }}

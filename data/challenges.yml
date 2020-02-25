@@ -1,3 +1,11 @@
+- title: "Compressor Analytics Challenge"
+  company: "Shell"
+  url: "https://github.com/aihack20/shell_challenge"
+
+- title: "Improving Quality of Life"
+  company: "NHS"
+  url: "https://github.com/aihack20/nhs_challenge"
+
 - title: "AirBnB Challenge"
-  subtitle: "Decipher the Housing Market"
+  company: "Correlation One"
   url: "https://github.com/aihack20/airbnb_challenge"
