@@ -5,11 +5,11 @@
     <div class="nav-content">
       <img class="logo" src="img/logo.svg">
       <span class="nav-group optional">
-        <a class="nav-item" href="#sec-key-dates">Key Dates</a>
+        {{ if .Site.Data.toggles.keydates }}<a class="nav-item" href="#sec-key-dates">Key Dates</a>{{ end }}
         {{ if .Site.Data.toggles.events }}<a class="nav-item" href="#sec-events">Events</a>{{ end }}
         <a class="nav-item" href="#sec-schedule">Schedule</a>
         {{ if .Site.Data.toggles.challenges }}<a class="nav-item" href="#sec-challenges">Challenges</a>{{ end }}
-        {{ if .Site.Data.toggles.judges }}<a class="nav-item" href="#sec-judges">Judges</a>{{ end }}
+        {{ if .Site.Data.toggles.judges }}<a class="nav-item" href="#sec-judges">Speakers</a>{{ end }}
         {{ if .Site.Data.toggles.sponsors }}<a class="nav-item" href="#sec-sponsors">Sponsors</a>{{ end }}
         {{ if .Site.Data.toggles.faq }}<a class="nav-item" href="#sec-faq">FAQ</a>{{ end }}
         <a class="nav-item" href="#sec-team">Team</a>
@@ -25,7 +25,7 @@
         <span class="digit" data-label="days"></span>
         <span class="digit" data-label="hours"></span>
         <span class="digit" data-label="minutes"></span>
-        <span class="date">29. Feb. 2020</span>
+        <span class="date">November 4th 2020</span>
         {{ if .Site.Data.toggles.applications.open }}
           <a href="{{ .Site.Data.toggles.applications.url }}" class="button">Apply for AI Hack</a>
         {{ else }}
@@ -39,18 +39,20 @@
   </div>
 
   <!-- Key Dates -->
-  <div id="sec-key-dates" class="section">
-    <h1>Key Dates</h1>
-    <div class="schedule">
-      {{ range .Site.Data.keydates }}
-        <ul class="day" data-day="{{ .title }}" data-date="{{ .sub }}">
-          {{ range .items }}
-            <li data-time="{{ .date }}">{{ .title }}</li>
-          {{ end }}
-        </ul>
-      {{ end }}
+  {{ if .Site.Data.toggles.keydates }}
+    <div id="sec-key-dates" class="section">
+      <h1>Key Dates</h1>
+      <div class="schedule">
+        {{ range .Site.Data.keydates }}
+          <ul class="day" data-day="{{ .title }}" data-date="{{ .sub }}">
+            {{ range .items }}
+              <li data-time="{{ .date }}">{{ .title }}</li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
     </div>
-  </div>
+  {{ end }}
 
   <!-- Events -->
   {{ if .Site.Data.toggles.events }}
@@ -98,10 +100,10 @@
     </div>
   {{ end }}
 
-  <!-- Judges -->
+  <!-- Speakers -->
   {{ if .Site.Data.toggles.judges }}
     <div id="sec-judges" class="section">
-      <h1>Judges</h1>
+      <h1>Speakers</h1>
       {{ partial "judges.html" .Site.Data.judges }}
     </div>
   {{ end }}
