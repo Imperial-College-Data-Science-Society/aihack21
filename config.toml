@@ -1,4 +1,4 @@
-baseURL = "https://aihack.org/"
+baseURL = "https://datacon20.aihack.org/"
 languageCode = "en-us"
 title = "AI CONFERENCE 2020"
 enableRobotsTXT = true
