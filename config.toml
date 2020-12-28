@@ -1,6 +1,6 @@
-baseURL = "https://datacon20.aihack.org/"
+baseURL = "https://aihack21.aihack.org/"
 languageCode = "en-us"
-title = "AI CONFERENCE 2020"
+title = "AIHACK 2021"
 enableRobotsTXT = true
 
 [permalinks]
