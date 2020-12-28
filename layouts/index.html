@@ -3,7 +3,9 @@
   <!-- Navigation -->
   <nav id="nav-header" class="nav nav-transparent">
     <div class="nav-content">
-      <img class="logo" src="img/logo.svg">
+      <a href="#">
+        <img class="logo" src="img/logo.svg">
+      </a>
       <span class="nav-group optional">
         {{ if .Site.Data.toggles.keydates }}<a class="nav-item" href="#sec-key-dates">Key Dates</a>{{ end }}
         {{ if .Site.Data.toggles.events }}<a class="nav-item" href="#sec-events">Events</a>{{ end }}
