@@ -1,41 +1,37 @@
 - name: "Jenniffer Mosquera"
-  info: "HEAD OF CORPORATE RELATIONS"
+  info: "VICE PRESIDENT"
   pic: "jenniffer"
   linkedin: "jenniffersolorzanomosquera"
 
-- name: "Shashwat Dalal"
-  info: "ICDSS PRESIDENT"
-  pic: "shashwat"
-  linkedin: "shashwat-dalal"
-
-- name: "Diffy Yu"
-  info: "HEAD OF CORPORATE RELATIONS"
-  linkedin: "difei-yu-678609ab"
-
-- name: "Enyi Shang"
-  info: "HEAD OF MARKETING"
-  pic: "enyi"
-  linkedin: "enyi-shang-1616a9b9"
-
-- name: "Peter Udvardi"
-  info: "HEAD OF OPERATION"
-  pic: "peter"
-  linkedin: "peterudvardi"
-
-- name: "Jergus Strucka"
-  info: "HEAD OF TALENT DEVELOPMENT"
-  pic: "jergus"
-  linkedin: "jergus-strucka"
-
-- name: "Adam Bhaiji"
-  info: "VICE PRESIDENT"
-  pic: "adam"
-  linkedin: "adambhaiji"
-
 - name: "Satya Johnson"
-  info: "VICE PRESIDENT"
+  info: "ICDSS PRESIDENT"
   pic: "satya"
   linkedin: "satyapjohnson"
+
+- name: "Hermine Tranie"
+  info: "VICE PRESIDENT"
+  pic: "hermine"
+  linkedin: "hermine-t-326ab1ab"
+
+- name: "Lionel Tan"
+  info: "HEAD OF OPERATION"
+  pic: "lionel"
+  linkedin: "si-yu-lionel-tan-28a414105"
+
+- name: "William Profit"
+  info: "HEAD OF TALENT DEVELOPMENT"
+  pic: "william"
+  linkedin: "williamprofit"
+
+- name: "Xing Liu"
+  info: "HEAD OF TALENT DEVELOPMENT"
+  pic: "xing"
+  linkedin: "xingliu97"
+
+- name: "Kacper Kazaniecki"
+  info: "HEAD OF TALENT DEVELOPMENT"
+  pic: "kacper"
+  linkedin: "kacperkazaniecki"
 
 - name: "Stacey Wu"
   info: "HEAD OF FINANCE"
@@ -46,16 +42,6 @@
   info: "INFRASTRUCTURE & WEBMASTER"
   pic: "tilman"
   linkedin: "tilman-roeder"
-
-- name: "William Profit"
-  info: "TALENT DEVELOPMENT"
-  pic: "william"
-  linkedin: "williamprofit"
-
-- name: "Kacper Kazaniecki"
-  info: "TALENT DEVELOPMENT"
-  pic: "kacper"
-  linkedin: "kacperkazaniecki"
 
 - name: "Hilliam Tung"
   info: "AI HACK SPECIAL ADVISER"
