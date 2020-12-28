@@ -1,5 +1,5 @@
 <!-- render a list of people -->
-<div id="rand-order" class="profiles">
+<div class="profiles">
   {{ range . }}
     <div class="card">
       <img src="img/people/{{ if .pic }}{{ .pic }}.jpeg{{ else }}placeholder.png{{ end }}">
