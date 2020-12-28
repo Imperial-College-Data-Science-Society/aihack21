@@ -2,8 +2,9 @@
 faq: false
 keydates: true
 sponsors: false
+schedule: false
 challenges: false
-judges: true
+judges: false
 applications:
   open: false
   url: "https://form.jotform.com/200375359344355"

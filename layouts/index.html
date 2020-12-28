@@ -6,12 +6,12 @@
       <img class="logo" src="img/logo.svg">
       <span class="nav-group optional">
         {{ if .Site.Data.toggles.keydates }}<a class="nav-item" href="#sec-key-dates">Key Dates</a>{{ end }}
-        <!-- {{ if .Site.Data.toggles.events }}<a class="nav-item" href="#sec-events">Events</a>{{ end }}
-        <a class="nav-item" href="#sec-schedule">Schedule</a>
+        {{ if .Site.Data.toggles.events }}<a class="nav-item" href="#sec-events">Events</a>{{ end }}
+        {{ if .Site.Data.toggles.schedule }}<a class="nav-item" href="#sec-schedule">Schedule</a>{{ end }}
         {{ if .Site.Data.toggles.challenges }}<a class="nav-item" href="#sec-challenges">Challenges</a>{{ end }}
         {{ if .Site.Data.toggles.judges }}<a class="nav-item" href="#sec-judges">Speakers</a>{{ end }}
         {{ if .Site.Data.toggles.sponsors }}<a class="nav-item" href="#sec-sponsors">Sponsors</a>{{ end }}
-        {{ if .Site.Data.toggles.faq }}<a class="nav-item" href="#sec-faq">FAQ</a>{{ end }} -->
+        {{ if .Site.Data.toggles.faq }}<a class="nav-item" href="#sec-faq">FAQ</a>{{ end }}
         <a class="nav-item" href="#sec-team">Team</a>
       </span>
     </div>
@@ -71,6 +71,7 @@
   {{ end }}
 
   <!-- Schedule -->
+  {{ if .Site.Data.toggles.schedule }}
   <div id="sec-schedule" class="section">
     <h1>Schedule</h1>
     <div class="schedule">
@@ -83,6 +84,7 @@
       {{ end }}
     </div>
   </div>
+  {{ end }}
 
   <!-- Challenges -->
   {{ if .Site.Data.toggles.challenges }}
