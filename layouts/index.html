@@ -6,12 +6,12 @@
       <img class="logo" src="img/logo.svg">
       <span class="nav-group optional">
         {{ if .Site.Data.toggles.keydates }}<a class="nav-item" href="#sec-key-dates">Key Dates</a>{{ end }}
-        {{ if .Site.Data.toggles.events }}<a class="nav-item" href="#sec-events">Events</a>{{ end }}
+        <!-- {{ if .Site.Data.toggles.events }}<a class="nav-item" href="#sec-events">Events</a>{{ end }}
         <a class="nav-item" href="#sec-schedule">Schedule</a>
         {{ if .Site.Data.toggles.challenges }}<a class="nav-item" href="#sec-challenges">Challenges</a>{{ end }}
         {{ if .Site.Data.toggles.judges }}<a class="nav-item" href="#sec-judges">Speakers</a>{{ end }}
         {{ if .Site.Data.toggles.sponsors }}<a class="nav-item" href="#sec-sponsors">Sponsors</a>{{ end }}
-        {{ if .Site.Data.toggles.faq }}<a class="nav-item" href="#sec-faq">FAQ</a>{{ end }}
+        {{ if .Site.Data.toggles.faq }}<a class="nav-item" href="#sec-faq">FAQ</a>{{ end }} -->
         <a class="nav-item" href="#sec-team">Team</a>
       </span>
     </div>
@@ -25,7 +25,7 @@
         <span class="digit" data-label="days"></span>
         <span class="digit" data-label="hours"></span>
         <span class="digit" data-label="minutes"></span>
-        <span class="date">November 4th 2020</span>
+        <span class="date">February 20th 2021</span>
         {{ if .Site.Data.toggles.applications.open }}
           <a href="{{ .Site.Data.toggles.applications.url }}" class="button">Apply for AI Hack</a>
         {{ else }}
@@ -55,7 +55,7 @@
   {{ end }}
 
   <!-- Events -->
-  {{ if .Site.Data.toggles.events }}
+  <!-- {{ if .Site.Data.toggles.events }}
     <div id="sec-events" class="section">
       <h1>Events</h1>
       <ul class="events">
@@ -68,10 +68,10 @@
         {{ end }}
       </ul>
     </div>
-  {{ end }}
+  {{ end }} -->
 
   <!-- Schedule -->
-  <div id="sec-schedule" class="section">
+  <!-- <div id="sec-schedule" class="section">
     <h1>Schedule</h1>
     <div class="schedule">
       {{ range .Site.Data.schedule }}
@@ -82,10 +82,10 @@
         </ul>
       {{ end }}
     </div>
-  </div>
+  </div> -->
 
   <!-- Challenges -->
-  {{ if .Site.Data.toggles.challenges }}
+  <!-- {{ if .Site.Data.toggles.challenges }}
     <div id="sec-challenges" class="section">
       <h1>Challenges</h1>
       <ul class="events">
@@ -98,18 +98,18 @@
         {{ end }}
       </ul>
     </div>
-  {{ end }}
+  {{ end }} -->
 
   <!-- Speakers -->
-  {{ if .Site.Data.toggles.judges }}
+  <!-- {{ if .Site.Data.toggles.judges }}
     <div id="sec-judges" class="section">
       <h1>Speakers</h1>
       {{ partial "judges.html" .Site.Data.judges }}
     </div>
-  {{ end }}
+  {{ end }} -->
 
   <!-- Sponsors -->
-  {{ if .Site.Data.toggles.sponsors }}
+  <!-- {{ if .Site.Data.toggles.sponsors }}
     <div id="sec-sponsors" class="section">
       <h1>Sponsors</h1>
         <div class="logo-list" data-tier="Title Sponsor">
@@ -140,10 +140,10 @@
         </div>
         {{ end }}
       </div>
-  {{ end }}
+  {{ end }} -->
 
   <!-- FAQ -->
-  {{ if .Site.Data.toggles.faq }}
+  <!-- {{ if .Site.Data.toggles.faq }}
     <div id="sec-faq" class="section">
       <h1>Frequently Asked Questions</h1>
       {{ range .Site.Data.faq }}
@@ -151,7 +151,7 @@
         <div class="collap-content">{{ .answer | markdownify }}</div>
       {{ end }}
     </div>
-  {{ end }}
+  {{ end }} -->
 
   <!-- Team -->
   <div id="sec-team" class="section">
