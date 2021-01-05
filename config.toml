@@ -1,4 +1,4 @@
-baseURL = "https://aihack21.aihack.org/"
+baseURL = "https://2021.aihack.org/"
 languageCode = "en-us"
 title = "AIHACK 2021"
 enableRobotsTXT = true
