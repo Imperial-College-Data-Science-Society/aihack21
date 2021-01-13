@@ -8,5 +8,5 @@ judges: false
 applications:
   open: false
   url: "https://form.jotform.com/203582355265356"
-  close_msg: "Applications not opened yet."
+  close_msg: "Applications opening soon!"
 events: false
