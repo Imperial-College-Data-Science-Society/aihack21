@@ -2,7 +2,7 @@
   sub: Batch
   items:
   - title: Applications Open
-    date: Fri, 15 Jan 09:00
+    date: Fri, 15 Jan 12:00
   - title: Applications Close
     date: Fri, 22 Jan 23:59
   - title: Participants Announced
@@ -12,7 +12,7 @@
   sub: Batch
   items:
   - title: Applications Open
-    date: Wed, 27 Jan 09:00
+    date: Wed, 27 Jan 12:00
   - title: Applications Reviewed
     date: Sun, 7 Feb 23:59
   - title: Participants Announced
