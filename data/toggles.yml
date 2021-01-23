@@ -6,7 +6,7 @@ schedule: false
 challenges: false
 judges: false
 applications:
-  open: true
+  open: false
   url: "https://form.jotform.com/203582355265356"
   close_msg: "Applications opening soon!"
 events: false
