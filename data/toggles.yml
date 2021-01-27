@@ -6,7 +6,7 @@ schedule: false
 challenges: false
 judges: false
 applications:
-  open: false
-  url: "https://form.jotform.com/203582355265356"
-  close_msg: "Batch 1 Applications has closed."
+  open: true
+  url: "https://form.jotform.com/210264469907360"
+  close_msg: "Batch 2 Applications are open!"
 events: false
