@@ -1,9 +1,11 @@
 # Use these to toggle sections
+introduction: true
 faq: true
 keydates: true
 sponsors: false
 schedule: false
-challenges: false
+challenges: true
+prizes: true
 judges: false
 applications:
   open: true

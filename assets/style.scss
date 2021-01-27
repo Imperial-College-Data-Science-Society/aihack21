@@ -251,6 +251,25 @@ SECTION
 }
 
 /*
+Introduction
+*/
+
+.introduction {
+    p {
+        padding-top: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin: 0;
+        color: #ffb2a9;
+    }
+    li {
+        font-size: 20px;
+        font-weight: 500;
+        color: #bfc0c0;
+    }
+}
+/*
 EVENTS
 */
 
@@ -311,6 +330,30 @@ EVENTS
       }
     }
   }
+  .prize {
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 25px;
+
+    h2 {
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 40px;
+      margin: 0;
+      color: #ffb2a9;
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 30px;
+      color: #bfc0c0;
+      margin: 0 0 15px 0;
+      font-weight: 900;
+      content: attr(data-date);
+    }
+
+  }
+  
 }
 
 /*
@@ -478,7 +521,7 @@ TEAM (a mess right now...)
   position: absolute;
   top: -20px; left: 50%; left: calc(50% - 20px);
 
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 900;
   line-height: 50px;
 
