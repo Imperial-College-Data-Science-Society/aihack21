@@ -170,9 +170,9 @@
     {{ if .Site.Data.toggles.sponsors }}
     <div id="sec-sponsors" class="section">
         <h1>Sponsors</h1>
-        <div class="logo-list" data-tier="Title Sponsor">
+        <!-- <div class="logo-list" data-tier="Title Sponsor">
             <img style="max-height:100px" src="img/sponsors/{{ .Site.Data.sponsors.title }}.svg">
-        </div>
+        </div> -->
         {{ if or .Site.Data.sponsors.general .Site.Data.sponsors.general_png }}
         <div class="logo-list" data-tier="Sponsor">
             {{ range .Site.Data.sponsors.general }}

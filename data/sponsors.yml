@@ -1,20 +1,17 @@
-title: shell
+# title: shell
 # Add new sponsors here (and add their logo as SVG in static/img/sponsors)
 general:
-  - nhs
-  - jane_street
-  - c1
+  # - nhs
+  # - jane_street
+  # - c1
 general_png:
-#   - tableau
-  - dataiku
-cloud:
-  - gcp
-  - microsoft
-society:
-  - ucldss
-  - camdss
-  - kcldss
-  - lsesu
-  - she++
-  - oxfest
-  - warwick
+  - shopee
+  # - ihs_markit
+# society:
+  # - ucldss
+  # - camdss
+  # - kcldss
+  # - lsesu
+  # - she++
+  # - oxfest
+  # - warwick
