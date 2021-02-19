@@ -6,7 +6,8 @@ general:
   # - c1
 general_png:
   - shopee
-  # - ihs_markit
+cloud:
+  - microsoft
 # society:
   # - ucldss
   # - camdss
