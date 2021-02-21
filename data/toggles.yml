@@ -3,7 +3,7 @@ introduction: true
 faq: true
 keydates: true
 sponsors: true
-schedule: false
+schedule: true
 challenges: true
 prizes: true
 judges: false
